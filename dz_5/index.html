@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Интерактив</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Интерактивная работа с объектами и массивами</h1>
+
+<div class="container">
+
+    <h2> Данные пользователя</h2>
+    <input id="userName" type="text" placeholder="Имя">
+    <input id="userAge" type="number" placeholder="Возраст">
+    <input id="userJob" type="text" placeholder="Должность">
+    <input id="programming" type="text" placeholder="Программирование (через запятую)">
+    <input id="softSkills" type="text" placeholder="Soft skills (через запятую)">
+    <input id="userAddress" type="text" placeholder="Адрес (необязательно)">
+    <button id="runTask1">Разобрать объект</button>
+    <div id="output1" class="output"></div>
+
+    <hr>
+
+    <h2> Массив пользователей</h2>
+    <div id="usersList"></div>
+    <button id="addUser">Добавить пользователя</button>
+    <button id="runTask2">Обработать массив</button>
+    <div id="output2" class="output"></div>
+
+    <hr>
+
+    <h2> Функция calculateSum</h2>
+    <input type="number" id="multiplier" placeholder="Multiplier">
+    <input type="text" id="numbers" placeholder="Числа через запятую">
+    <button id="runTask3">Вычислить сумму</button>
+    <div id="output3" class="output"></div>
+
+</div>
+
+<!-- Скрипт подключаем внизу body -->
+<script src="main.js"></script>
+</body>
+</html>
